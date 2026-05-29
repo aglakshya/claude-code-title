@@ -104,10 +104,10 @@ File: `/Users/l.agrawal/Desktop/personal/claude-code-title/plugins/title/.claude
   "description": "Manual /title slash command that names your Claude Code session based on conversation context",
   "author": {
     "name": "Lakshya Agrawal",
-    "url": "https://github.com/aglakshya02"
+    "url": "https://github.com/aglakshya"
   },
-  "homepage": "https://github.com/aglakshya02/claude-code-title",
-  "repository": "https://github.com/aglakshya02/claude-code-title",
+  "homepage": "https://github.com/aglakshya/claude-code-title",
+  "repository": "https://github.com/aglakshya/claude-code-title",
   "license": "MIT",
   "keywords": ["claude-code", "slash-command", "session", "title", "rename"]
 }
@@ -144,7 +144,7 @@ File: `/Users/l.agrawal/Desktop/personal/claude-code-title/.claude-plugin/market
   "name": "claude-code-title",
   "owner": {
     "name": "Lakshya Agrawal",
-    "url": "https://github.com/aglakshya02"
+    "url": "https://github.com/aglakshya"
   },
   "plugins": [
     {
@@ -374,7 +374,7 @@ When you type `/title` (optionally `/title focus on the auth refactor` to steer 
 In Claude Code:
 
 ```
-/plugin marketplace add aglakshya02/claude-code-title
+/plugin marketplace add aglakshya/claude-code-title
 /plugin install title@claude-code-title
 ```
 
@@ -385,7 +385,7 @@ If you don't want plugin machinery, just drop the command file in:
 ```sh
 mkdir -p ~/.claude/commands
 curl -L -o ~/.claude/commands/title.md \
-  https://raw.githubusercontent.com/aglakshya02/claude-code-title/main/plugins/title/commands/title.md
+  https://raw.githubusercontent.com/aglakshya/claude-code-title/main/plugins/title/commands/title.md
 ```
 
 Both methods produce the same `/title` command.
@@ -501,6 +501,6 @@ Do NOT run `git push` or `gh repo create`. Creating and pushing to GitHub is the
 
 - The exact path: `/Users/l.agrawal/Desktop/personal/claude-code-title`
 - The number of commits ahead of an empty remote
-- Suggested next commands the user can run themselves: `gh repo create aglakshya02/claude-code-title --public --source=. --remote=origin --push` (or equivalent).
+- Suggested next commands the user can run themselves: `gh repo create aglakshya/claude-code-title --public --source=. --remote=origin --push` (or equivalent).
 
 ---

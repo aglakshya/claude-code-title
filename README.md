@@ -29,7 +29,7 @@ What we *can* do is generate the title and stage the `/rename` command on your c
 In Claude Code:
 
 ```
-/plugin marketplace add aglakshya02/claude-code-title
+/plugin marketplace add aglakshya/claude-code-title
 /plugin install title@claude-code-title
 ```
 
@@ -40,7 +40,7 @@ If you don't want plugin machinery, just drop the command file in:
 ```sh
 mkdir -p ~/.claude/commands
 curl -L -o ~/.claude/commands/title.md \
-  https://raw.githubusercontent.com/aglakshya02/claude-code-title/main/plugins/title/commands/title.md
+  https://raw.githubusercontent.com/aglakshya/claude-code-title/main/plugins/title/commands/title.md
 ```
 
 Both methods produce the same `/title` command.

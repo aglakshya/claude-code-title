@@ -1,7 +1,7 @@
 # claude-code-title — Design Spec
 
 **Date:** 2026-05-29
-**Author:** Lakshya Agrawal (`aglakshya02`)
+**Author:** Lakshya Agrawal (`aglakshya`)
 **Status:** v2 — amended after end-to-end verification surfaced an architectural blocker. See Revision history.
 
 ## Problem
@@ -96,7 +96,7 @@ The prompt body is the substantive logic; manifests are boilerplate.
 
 ```
 # In Claude Code
-/plugin marketplace add aglakshya02/claude-code-title
+/plugin marketplace add aglakshya/claude-code-title
 /plugin install title@claude-code-title
 ```
 
@@ -105,14 +105,14 @@ The prompt body is the substantive logic; manifests are boilerplate.
 ```
 mkdir -p ~/.claude/commands
 curl -L -o ~/.claude/commands/title.md \
-  https://raw.githubusercontent.com/aglakshya02/claude-code-title/main/plugins/title/commands/title.md
+  https://raw.githubusercontent.com/aglakshya/claude-code-title/main/plugins/title/commands/title.md
 ```
 
 Both produce the same `/title` command.
 
 ## Open assumptions / things to confirm during implementation
 
-1. **Author identity.** Defaulting to `aglakshya02` / "Lakshya Agrawal" based on the user's git config. Easy to swap in `plugin.json`, `marketplace.json`, and README.
+1. **Author identity.** Defaulting to `aglakshya` / "Lakshya Agrawal" based on the user's git config. Easy to swap in `plugin.json`, `marketplace.json`, and README.
 2. **Repo name.** `claude-code-title`. Alternatives were `claude-title`, `cc-title`, `auto-title`.
 3. **License.** MIT.
 4. **`pbcopy` fallback for Linux/Windows.** Initial version is macOS-only for the clipboard nicety; Linux/Windows users still get the printed `/rename` line. If demand exists, add `xclip`/`wl-copy`/`clip.exe` detection.
